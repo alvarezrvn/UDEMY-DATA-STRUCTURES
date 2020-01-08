@@ -5,7 +5,7 @@ public class BubbleSort {
     /**
      * @param intArray array of integers
      * Purpose: sort an array of integers using bubble sort algorithm
-     * Best: O(n)    Average: O(n^2)    Worse: O(n^2)
+     * Time Complexity Best - O(n)    Average - O(n^2)    Worse - O(n^2)
      */
     public static void bubbleSort(@NotNull int[] intArray){
         for(int lastUnsortedIndex = intArray.length - 1; lastUnsortedIndex > 0; lastUnsortedIndex--){
